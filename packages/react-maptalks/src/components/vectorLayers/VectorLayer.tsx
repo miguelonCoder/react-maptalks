@@ -23,6 +23,7 @@ const VLayer = ({ idLayer, children, getLayer }: VLayerProps) => {
       setLayer(vectorLayer);
       getLayer && getLayer(vectorLayer);
     }
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map]);
 
   return (

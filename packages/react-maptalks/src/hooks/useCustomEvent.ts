@@ -14,6 +14,7 @@ export const useCustomEvent = (
       });
     }
     return removeHandler;
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [layer]);
 
   const removeHandler: () => void = () => layer?.off(nameEvent, handler);

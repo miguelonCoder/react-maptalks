@@ -20,6 +20,6 @@ export const AttributionControl = ({
       });
       attribution.addTo(map);
     }
-  }, [map]);
+  }, [map, content, position]);
   return <></>;
 };

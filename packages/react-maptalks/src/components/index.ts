@@ -3,7 +3,7 @@ import { AttributionControl } from "./controls/AttributionControl";
 import LineVectorLayer from "./vectorLayers/LineVectorLayer";
 import MapComponent from "./MapComponent";
 import Marker from "./vectorLayers/Marker";
-import { InfoWindow } from "./uiComponents/InfoWindow";
+import { InfoWindow } from "./uiComponents/infoWindow/InfoWindow";
 import VLayer from "./vectorLayers/VectorLayer";
 import Button from "./Button";
 

@@ -17,7 +17,7 @@ const LineVectorLayer = ({ lines, idLayer }: any) => {
         map.addLayer(lineVectorLayer);
       }
     }
-  }, [lines, map]);
+  }, [lines, map, idLayer]);
 
   return <></>;
 };

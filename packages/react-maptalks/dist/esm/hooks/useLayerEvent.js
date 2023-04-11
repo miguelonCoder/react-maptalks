@@ -6,6 +6,7 @@ export var useLayerEvent = function (layer, typeEvent, handler) {
             geometry.on(typeEvent, handler);
         });
         return removeEventHandler;
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [layer]);
     var removeEventHandler = function () {
         var _a;

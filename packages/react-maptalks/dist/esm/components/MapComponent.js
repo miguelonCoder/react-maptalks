@@ -22,6 +22,7 @@ var MapComponent = function (_a) {
         return function () {
             map && map.id && map.remove();
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [mapOptions]);
     return (React.createElement(React.Fragment, null,
         React.createElement("div", { id: idMap, ref: mapContainerEl, className: className }),

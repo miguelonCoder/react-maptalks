@@ -15,7 +15,7 @@ export var AttributionControl = function (_a) {
             });
             attribution.addTo(map);
         }
-    }, [map]);
+    }, [map, content, position]);
     return React.createElement(React.Fragment, null);
 };
 //# sourceMappingURL=AttributionControl.js.map

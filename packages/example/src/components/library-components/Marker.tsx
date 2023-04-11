@@ -1,7 +1,11 @@
 import React, { ReactElement, useEffect, useState, useMemo } from "react";
 import * as maptalks from "maptalks";
-import { GeometryBase, SymbolOptions } from "../../interfaces";
-import { GeometryProvider, useVLayerContext } from "../../context";
+
+
+import {
+  GeometryBase,
+  GeometryProvider, SymbolOptions, useVLayerContext 
+} from "react-maptalks";
 
 const DEFAULT_SYMBOL: SymbolOptions = {
   markerType: "ellipse",
@@ -64,7 +68,6 @@ const Marker = ({
       symbol,
       zIndex,
     }
-     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (

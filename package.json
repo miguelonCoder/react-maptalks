@@ -1,9 +1,14 @@
 {
-  "name": "root",
+  "name": "root-rct-maptalks",
+  "author": "Miguel Angel Ramirez (miguelonCoder)",
+  "license": "Hippocratic-2.1",
+  "version": "1.0.0",
+  "description": "A way to use Maptalks as React Components",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "homepage": "https://migueloncoder.github.io/react-maptalks-doc/",
   "devDependencies": {
     "lerna": "^6.6.1"
   }

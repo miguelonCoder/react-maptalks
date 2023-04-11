@@ -16,6 +16,7 @@ var VLayer = function (_a) {
             setLayer(vectorLayer);
             getLayer && getLayer(vectorLayer);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [map]);
     return (React.createElement(React.Fragment, null, vLayer && React.createElement(VLayerProvider, { vLayer: vLayer }, children)));
 };

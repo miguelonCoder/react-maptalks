@@ -16,7 +16,7 @@ var LineVectorLayer = function (_a) {
                 map.addLayer(lineVectorLayer);
             }
         }
-    }, [lines, map]);
+    }, [lines, map, idLayer]);
     return React.createElement(React.Fragment, null);
 };
 export default LineVectorLayer;

@@ -36,6 +36,7 @@ const MapComponent = ({
     return () => {
       map && map.id && map.remove();
     };
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mapOptions]);
 
   return (
