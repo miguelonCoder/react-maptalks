@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { VectorLayer } from "maptalks";
 export type VLayerContextProps = Readonly<{
     __version: number;

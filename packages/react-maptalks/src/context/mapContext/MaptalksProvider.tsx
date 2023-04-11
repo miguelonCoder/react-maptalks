@@ -1,6 +1,6 @@
 import React, { ReactElement, useReducer } from "react";
 import { Map } from "maptalks";
-import { MaptalksContext, MaptalksContextProps, maptalksReducer } from "./";
+import { MaptalksContext, MaptalksContextProps, maptalksReducer } from ".";
 
 export const CONTEXT_VERSION = 1;
 

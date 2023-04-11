@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { MaptalksContextProps } from "./";
+import { MaptalksContextProps } from ".";
 export declare const CONTEXT_VERSION = 1;
 export interface MaptalksProviderProps {
     children: ReactElement | ReactElement[];

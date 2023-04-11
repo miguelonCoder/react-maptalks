@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { Geometry } from "maptalks";
 export type GeometryContextProps = Readonly<{
     __version: number;

@@ -1,6 +1,6 @@
 import { __assign } from "tslib";
 import React, { useReducer } from "react";
-import { MaptalksContext, maptalksReducer } from "./";
+import { MaptalksContext, maptalksReducer } from ".";
 export var CONTEXT_VERSION = 1;
 export function createMaptalksContext() {
     return Object.freeze({

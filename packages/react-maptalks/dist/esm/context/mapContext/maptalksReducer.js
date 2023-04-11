@@ -1,4 +1,4 @@
-import { extendMaptalksContext } from "./";
+import { extendMaptalksContext } from ".";
 export var maptalksReducer = function (state, action) {
     switch (action.type) {
         case "SET_MAP":

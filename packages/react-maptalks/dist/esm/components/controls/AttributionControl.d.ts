@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { IAttributionControlProps } from "../../interfaces/mapInterfaces";
 /**
  * @alpha

@@ -1,5 +1,5 @@
 import { Map } from "maptalks";
-import { MaptalksContextProps } from "./";
+import { MaptalksContextProps } from ".";
 type MaptalksActionType = {
     type: "SET_MAP";
     payload: Map;

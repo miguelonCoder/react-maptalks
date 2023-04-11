@@ -2,7 +2,7 @@
   "name": "rct-maptalks",
   "author": "Miguel Angel Ramirez (miguelonCoder)",
   "license": "Hippocratic-2.1",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A way to use Maptalks as React Components",
   "files": [
     "dist/",
@@ -31,6 +31,7 @@
     "test": "jest --config jestconfig.json"
   },
   "devDependencies": {
+    "@inrupt/jest-jsdom-polyfills": "^1.6.1",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
     "@types/maptalks": "^0.49.1",

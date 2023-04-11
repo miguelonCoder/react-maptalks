@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import * as maptalks from "maptalks";
 export interface BaseLayerProps {
     id: string;
